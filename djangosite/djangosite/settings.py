@@ -14,6 +14,14 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+# settings.py
+
+import os
+
+# Other settings...
+
+# Define the STATIC_ROOT setting
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,6 +37,7 @@ ALLOWED_HOSTS = [
     "54.205.57.183",
     "https://ashleysite-cf163d232f9a.herokuapp.com/"
                  ]
+
 
 
 # Application definition
