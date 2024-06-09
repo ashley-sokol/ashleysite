@@ -36,7 +36,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "54.205.57.183",
     "https://ashleysite-cf163d232f9a.herokuapp.com/",
-    "ashleysokol.pythonanywhere.com"
+    "ashleysokol.pythonanywhere.com",
+    "http://127.0.0.1:8000/"
                  ]
 
 
